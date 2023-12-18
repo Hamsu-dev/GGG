@@ -7,7 +7,7 @@
     <title>
         Grinding Gear Games
     </title>
-    
+
     <!-- CDN -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.20/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -23,99 +23,109 @@
 </head>
 
 <body class="bg-black text-white">
-            <div class="navbar bg-base-100 sticky top-0 z-50">
-                <div class="navbar-start">
-                    <div class="dropdown">
-                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
-                            </svg>
-                        </div>
-                        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                            <li><a>Company</a></li>
-                            <li>
-                                <a>Path Of Exile</a>
-                                <ul class="p-2">
-                                    <li><a>Path Of Exile</a></li>
-                                    <li><a>Path Of Exile 2</a></li>
-                                </ul>
-                            </li>
-                            <li><a>Careers</a></li>
-                            <li><a>Contact Us</a></li>
+    <div class="navbar bg-base-100 sticky top-0 z-50">
+        <div class="navbar-start">
+            <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h8m-8 6h16" />
+                    </svg>
+                </div>
+                <ul tabindex="0"
+                    class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                    <li><a href="#company">Company</a></li>
+                    <li>
+                        <a>Path Of Exile</a>
+                        <ul class="p-2">
+                            <li><a>Path Of Exile</a></li>
+                            <li><a>Path Of Exile 2</a></li>
                         </ul>
-                    </div>
-                    <img alt="Grinding Gear Games Logo" class="h-12" src="Assets/Grinding_Gear_Games.png" />
-                </div>
-                <div class="navbar-center hidden lg:flex">
-                    <ul class="menu menu-horizontal px-1">
-                        <li><a>Company</a></li>
-                        <li>
-                            <details>
-                                <summary>Path Of Exile</summary>
-                                <ul class="p-2">
-                                    <li><a>Path Of Exile</a></li>
-                                    <li><a>Path Of Exile 2</a></li>
-                                </ul>
-                            </details>
-                        </li>
-                        <li><a>Careers</a></li>
-                        <li><a>Contact Us</a></li>
-                    </ul>
-                </div>
-                <div class="navbar-end">
-                    <a class="btn">Account</a>
-                </div>
+                    </li>
+                    <li><a>Careers</a></li>
+                    <li><a>Contact Us</a></li>
+                </ul>
             </div>
-        </header>
-        <!-- Hero Section -->
+            <img alt="Grinding Gear Games Logo" class="h-12" src="Assets/Grinding_Gear_Games.png" />
         </div>
-        <div class="flex justify-center items-center h-screen">
-            <div class="relative aspect-w-16 aspect-h-9">
-                <video src="Assets/POE.mp4" autoplay muted loop class="object-fill w-fit h-fit"></video>
-                <!-- Logo Overlay -->
-                <div class="absolute inset-0 flex justify-center items-start mt-4">
-                    <img src="Assets/POE_Logo.png" alt="POE Logo" class="mx-auto">
-                </div>
-            </div>
+        <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+                <li><a href="#company">Company</a></li>
+                <li>
+                    <details>
+                        <summary>Path Of Exile</summary>
+                        <ul class="p-2">
+                            <li><a href="https://www.pathofexile.com/" target="_blank">Path Of Exile</a></li>
+                            <li><a href="https://www.pathofexile.com/" target="_blank">Path Of Exile 2</a></li>
+                        </ul>
+                    </details>
+                </li>
+                <li><a>Careers</a></li>
+                <li><a>Contact Us</a></li>
+            </ul>
         </div>
-        <!-- Platforms -->
-        <div class="flex justify-center space-x-2 my-4">
-            <img alt="Battle.net logo placeholder" class="h-6" height="50"
-                src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-AExz2sClQOI0WD05SQZNCWgB/user-MlmjChcinEYBA6KrHy3T1E0q/img-eAGjBomkI55rHZs9hJsK9WXq.png?st=2023-12-17T05%3A54%3A37Z&amp;se=2023-12-17T07%3A54%3A37Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2023-12-16T18%3A36%3A31Z&amp;ske=2023-12-17T18%3A36%3A31Z&amp;sks=b&amp;skv=2021-08-06&amp;sig=UEAcMtDpKabA4gmipsNR4sjtyQ4c%2B9P03%2BbBgLsTMrw%3D"
-                width="100" />
-            <img alt="Xbox Series X logo placeholder" class="h-6" src="https://placehold.co/100x50" />
-            <img alt="Xbox One logo placeholder" class="h-6" src="https://placehold.co/100x50" />
-            <img alt="PS5 logo" class="h-6" src="Assets/PS5.webp" />
-            <img alt="Steam logo" class="h-6" src="Assets/Steam.png" />
+        <div class="navbar-end">
+            <a class="btn">Account</a>
         </div>
-        <!-- Wicked Fun Section -->
-        <div class="text-center py-8">
-            <h2 class="text-3xl font-bold">
-                "WICKED FUN"
-            </h2>
-            <div class="flex justify-center mt-4">
-                <div class="w-1/3 px-4">
-                    <img alt="Path Of Exile 2 gameplay launch trailer" class="w-full"
-                        src="https://placehold.co/600x400" />
-                    <h3 class="text-xl font-bold mt-2">
-                        GAMEPLAY LAUNCH TRAILER
-                    </h3>
-                </div>
-                <div class="w-1/3 px-4">
-                    <p class="text-gray-400">
-                        Grinding Gear Games was founded in November 2006 in Auckland, New Zealand. Its founding members come from various countries and have a selection of diverse backgrounds ranging from artificial intelligence and software security to industrial design to professional tournament game play. We are currently developing Path of Exile, a competitive online action RPG. Much more information about this project is available at www.pathofexile.com As veterans of various online role playing games, we understand what is required to make a compelling action RPG with visceral combat and a complex item economy.
-                    </p>
-                    <a class="text-red-600 hover:text-red-400 mt-4 inline-block" href="#">
-                        ACCOLADES &gt;
-                    </a>
-                </div>
+    </div>
+    </header>
+    <!-- Hero Section -->
+    </div>
+    <div class="flex justify-center items-center h-screen">
+        <div class="relative aspect-w-16 aspect-h-9">
+            <video src="Assets/POE.mp4" autoplay muted loop class="object-fill w-fit h-fit"></video>
+            <!-- Logo Overlay -->
+            <div class="absolute inset-0 flex justify-center items-start mt-4">
+                <img src="Assets/POE_Logo.png" alt="POE Logo" class="mx-auto">
             </div>
         </div>
-        <!-- Jumbotron -->
-        <section class="bg-black">
+    </div>
+    <!-- Platforms -->
+    <div class="flex justify-center space-x-2 my-4">
+        <img alt="Battle.net logo placeholder" class="h-6" height="50"
+            src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-AExz2sClQOI0WD05SQZNCWgB/user-MlmjChcinEYBA6KrHy3T1E0q/img-eAGjBomkI55rHZs9hJsK9WXq.png?st=2023-12-17T05%3A54%3A37Z&amp;se=2023-12-17T07%3A54%3A37Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2023-12-16T18%3A36%3A31Z&amp;ske=2023-12-17T18%3A36%3A31Z&amp;sks=b&amp;skv=2021-08-06&amp;sig=UEAcMtDpKabA4gmipsNR4sjtyQ4c%2B9P03%2BbBgLsTMrw%3D"
+            width="100" />
+        <img alt="Xbox Series X logo placeholder" class="h-6" src="https://placehold.co/100x50" />
+        <img alt="Xbox One logo placeholder" class="h-6" src="https://placehold.co/100x50" />
+        <img alt="PS5 logo" class="h-6" src="Assets/PS5.webp" />
+        <img alt="Steam logo" class="h-6" src="Assets/Steam.png" />
+    </div>
+    <!-- Wicked Fun Section -->
+    <div class="text-center py-8">
+        <h2 class="text-3xl font-bold">
+            "WICKED FUN"
+        </h2>
+        <div class="flex justify-center mt-4">
+            <div class="w-1/3 px-4">
+                <img alt="Path Of Exile 2 gameplay launch trailer" class="w-full" src="https://placehold.co/600x400" />
+                <h3 class="text-xl font-bold mt-2">
+                    GAMEPLAY LAUNCH TRAILER
+                </h3>
+            </div>
+            <div class="w-1/3 px-4">
+                <p class="text-gray-400">
+                    Grinding Gear Games was founded in November 2006 in Auckland, New Zealand. Its founding members come
+                    from various countries and have a selection of diverse backgrounds ranging from artificial
+                    intelligence and software security to industrial design to professional tournament game play. We are
+                    currently developing Path of Exile, a competitive online action RPG. Much more information about
+                    this project is available at www.pathofexile.com As veterans of various online role playing games,
+                    we understand what is required to make a compelling action RPG with visceral combat and a complex
+                    item economy.
+                </p>
+                <a class="text-red-600 hover:text-red-400 mt-4 inline-block" href="#">
+                    ACCOLADES &gt;
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Jumbotron -->
+    <section class="bg-black">
+        <div id="company">
             <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16" id="company">
-                <div style="background-image: url('Assets/Jumbotron_art.jpeg'); background-size: cover;" class="border border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12 mb-8">
-                    <a href="#company"
+                <div style="background-image: url('Assets/Jumbotron_art.jpeg'); background-size: cover;"
+                    class="border border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12 mb-8">
+                    <a href="#"
                         class="bg-blue-100 text-blue-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded-md dark:bg-gray-700 dark:text-blue-400 mb-2">
                         <svg class="w-2.5 h-2.5 me-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                             fill="currentColor" viewBox="0 0 20 14">
@@ -128,7 +138,13 @@
                         Grinding Gear Games
                     </h1>
                     <p class="text-lg font-normal text-gray-400 bg-gray-800 bg-opacity-90 p-4 rounded-md mb-6">
-                        Grinding Gear Games was founded in November 2006 in Auckland, New Zealand.<br><br> Its founding members come from various countries and have a selection of diverse backgrounds ranging from artificial intelligence and software security to industrial design to professional tournament game play. <br><br>We are currently developing Path of Exile, a competitive online action RPG. Much more information about this project is available at www.pathofexile.com As veterans of various online role playing games, <br><br>we understand what is required to make a compelling action RPG with visceral combat and a complex item economy.
+                        Grinding Gear Games was founded in November 2006 in Auckland, New Zealand.<br><br> Its founding
+                        members come from various countries and have a selection of diverse backgrounds ranging from
+                        artificial intelligence and software security to industrial design to professional tournament
+                        game play. <br><br>We are currently developing Path of Exile, a competitive online action RPG.
+                        Much more information about this project is available at www.pathofexile.com As veterans of
+                        various online role playing games, <br><br>we understand what is required to make a compelling
+                        action RPG with visceral combat and a complex item economy.
                     </p>
                     <a href="https://www.pathofexile.com/" target="_blank"
                         class="inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
@@ -141,7 +157,8 @@
                     </a>
                 </div>
                 <div class="grid md:grid-cols-2 gap-8">
-                    <div style="background-image: url('Assets/Jumbotron_art2.jpeg'); background-size: cover;" class="border border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12 mb-8">
+                    <div style="background-image: url('Assets/Jumbotron_art2.jpeg'); background-size: cover;"
+                        class="border border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12 mb-8">
                         <a href="#"
                             class="bg-green-100 text-green-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded-md dark:bg-gray-700 dark:text-green-400 mb-2">
                             <svg class="w-2.5 h-2.5 me-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
@@ -153,7 +170,8 @@
                         </a>
                         <h2 class="text-gray-900 dark:text-white text-3xl font-extrabold mb-2">Start with Flowbite
                             Design System</h2>
-                        <p class="text-lg font-normal text-gray-400 bg-gray-800 bg-opacity-90 p-4 rounded-md mb-6">Static websites are now
+                        <p class="text-lg font-normal text-gray-400 bg-gray-800 bg-opacity-90 p-4 rounded-md mb-6">
+                            Static websites are now
                             used to bootstrap lots of websites and are becoming the basis for a variety of tools that
                             even influence both web designers and developers.</p>
                         <a href="#"
@@ -166,7 +184,8 @@
                             </svg>
                         </a>
                     </div>
-                    <div style="background-image: url('Assets/Jumbotron_art3.jpeg'); background-size: cover;" class="border border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12 mb-8">
+                    <div style="background-image: url('Assets/Jumbotron_art3.jpeg'); background-size: cover;"
+                        class="border border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12 mb-8">
                         <a href="#"
                             class="bg-purple-100 text-purple-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded-md dark:bg-gray-700 dark:text-purple-400 mb-2">
                             <svg class="w-2.5 h-2.5 me-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
@@ -178,7 +197,7 @@
                         </a>
                         <h2 class="text-gray-900 dark:text-white text-3xl font-extrabold mb-2">Best react libraries
                             around the web</h2>
-                            <p class="text-lg font-normal text-gray-400 bg-gray-800 bg-opacity-90 p-4 rounded-md mb-6">    
+                        <p class="text-lg font-normal text-gray-400 bg-gray-800 bg-opacity-90 p-4 rounded-md mb-6">
                             Static websites are now
                             used to bootstrap lots of websites and are becoming the basis for a variety of tools that
                             even influence both web designers and developers.
@@ -195,162 +214,203 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- News Section -->
-        <div class="py-8 border-t border-gray-800">
-            <h2 class="text-3xl font-bold text-center">
-                NEWS
-            </h2>
         </div>
-        <div class="flex justify-center flex-wrap gap-4">
-            <!-- Start of card 1 -->
-            <div
-                class="flex-grow max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
-                <a href="#">
-                    <img class="rounded-t-lg" src="Assets/POE_AFFLICTION.jpg" alt="" />
-                </a>
-                <div class="p-5">
-                    <a href="#">
-                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy
-                            technology acquisitions 2021</h5>
-                    </a>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise
-                        technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                    <a href="#"
-                        class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                        Read more
-                    </a>
-                </div>
-            </div>
-            <!-- Start of card 2 -->
-            <div
-                class="flex-grow max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
-                <a href="#">
-                    <img class="rounded-t-lg" src="Assets/POE_AFFLICTION.jpg" alt="" />
-                </a>
-                <div class="p-5">
-                    <a href="#">
-                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy
-                            technology acquisitions 2021</h5>
-                    </a>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise
-                        technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                    <a href="#"
-                        class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                        Read more
-                    </a>
-                </div>
-            </div>
-            <!-- Start of card 3 -->
-            <div
-                class="flex-grow max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
-                <a href="#">
-                    <img class="rounded-t-lg" src="Assets/POE_AFFLICTION.jpg" alt="" />
-                </a>
-                <div class="p-5">
-                    <a href="#">
-                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy
-                            technology acquisitions 2021</h5>
-                    </a>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise
-                        technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                    <a href="#"
-                        class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                        Read more
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="flex justify-center mt-4"> <!-- This div ensures the button is centered -->
-            <a href="#"
-                class="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                View All
+    </section>
+    <!-- News Section -->
+    <div class="py-8 border-t border-gray-800">
+        <h2 class="text-3xl font-bold text-center">
+            NEWS
+        </h2>
+    </div>
+    <div class="flex justify-center flex-wrap gap-4">
+        <!-- Start of card 1 -->
+        <div
+            class="flex-grow max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+            <a href="#">
+                <img class="rounded-t-lg" src="Assets/POE_AFFLICTION.jpg" alt="" />
             </a>
-        </div>
-        <!-- Make Sanctuary Yours Section -->
-        <div class="py-8 border-t border-gray-800">
-            <h2 class="text-3xl font-bold text-center">
-                MAKE SANCTUARY YOURS
-            </h2>
-            <div class="flex justify-center mt-4">
-                <div class="w-1/4 px-4">
-                    <img alt="Character customization placeholder" class="w-full" src="https://placehold.co/300x300" />
-                    <h3 class="text-xl font-bold mt-2">
-                        CHARACTER CUSTOMIZATION
-                    </h3>
-                </div>
-                <div class="w-1/4 px-4">
-                    <img alt="Gear placeholder" class="w-full" height="300"
-                        src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-AExz2sClQOI0WD05SQZNCWgB/user-MlmjChcinEYBA6KrHy3T1E0q/img-vCnqZmHkq7mKLSx4sn6GlIJV.png?st=2023-12-17T05%3A54%3A38Z&amp;se=2023-12-17T07%3A54%3A38Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2023-12-16T19%3A29%3A19Z&amp;ske=2023-12-17T19%3A29%3A19Z&amp;sks=b&amp;skv=2021-08-06&amp;sig=Otr4mVnviwkaK30eQ4c3odcVwQzehyeHMkTuJ4y27no%3D"
-                        width="300" />
-                    <h3 class="text-xl font-bold mt-2">
-                        GEAR
-                    </h3>
-                </div>
-                <div class="w-1/4 px-4">
-                    <img alt="Skill trees placeholder" class="w-full" height="300"
-                        src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-AExz2sClQOI0WD05SQZNCWgB/user-MlmjChcinEYBA6KrHy3T1E0q/img-CGr5ifPOKrTKwMGSyb3RNf8R.png?st=2023-12-17T05%3A54%3A39Z&amp;se=2023-12-17T07%3A54%3A39Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2023-12-16T18%3A58%3A32Z&amp;ske=2023-12-17T18%3A58%3A32Z&amp;sks=b&amp;skv=2021-08-06&amp;sig=rqdyKqYdyaHUuwkZlPgZUOOA3dLo%2BcGcZ63kiTlCRZ8%3D"
-                        width="300" />
-                    <h3 class="text-xl font-bold mt-2">
-                        SKILL TREES
-                    </h3>
-                </div>
-                <div class="w-1/4 px-4">
-                    <img alt="Paragon board placeholder" class="w-full" src="https://placehold.co/300x300" />
-                    <h3 class="text-xl font-bold mt-2">
-                        PARAGON BOARD
-                    </h3>
-                </div>
+            <div class="p-5">
+                <a href="#">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy
+                        technology acquisitions 2021</h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise
+                    technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                <a href="#"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    Read more
+                </a>
             </div>
         </div>
-        <!-- Footer -->
-        <footer class="py-8 border-t border-gray-800">
-            <div class="flex justify-between">
-                <div>
-                    <img alt="Blizzard logo placeholder" class="h-8" src="https://placehold.co/200x100" />
-                </div>
-                <div class="flex space-x-4">
-                    <a class="text-gray-400 hover:text-white" href="#">
-                        Careers
-                    </a>
-                    <a class="text-gray-400 hover:text-white" href="#">
-                        About
-                    </a>
-                    <a class="text-gray-400 hover:text-white" href="#">
-                        Support
-                    </a>
-                    <a class="text-gray-400 hover:text-white" href="#">
-                        Contact Us
-                    </a>
-                    <a class="text-gray-400 hover:text-white" href="#">
-                        API
-                    </a>
-                </div>
-                <div class="flex space-x-2">
-                    <a class="text-gray-400 hover:text-white" href="#">
-                        <i class="fab fa-facebook-f">
-                        </i>
-                    </a>
-                    <a class="text-gray-400 hover:text-white" href="#">
-                        <i class="fab fa-twitter">
-                        </i>
-                    </a>
-                    <a class="text-gray-400 hover:text-white" href="#">
-                        <i class="fab fa-youtube">
-                        </i>
-                    </a>
-                    <a class="text-gray-400 hover:text-white" href="#">
-                        <i class="fab fa-instagram">
-                        </i>
-                    </a>
-                </div>
+        <!-- Start of card 2 -->
+        <div
+            class="flex-grow max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+            <a href="#">
+                <img class="rounded-t-lg" src="Assets/POE_AFFLICTION.jpg" alt="" />
+            </a>
+            <div class="p-5">
+                <a href="#">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy
+                        technology acquisitions 2021</h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise
+                    technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                <a href="#"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    Read more
+                </a>
             </div>
-            <div class="text-center text-gray-400 mt-4">
-                <p>
-                    ©2023 BLIZZARD ENTERTAINMENT, INC. ALL RIGHTS RESERVED.
-                </p>
+        </div>
+        <!-- Start of card 3 -->
+        <div
+            class="flex-grow max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+            <a href="#">
+                <img class="rounded-t-lg" src="Assets/POE_AFFLICTION.jpg" alt="" />
+            </a>
+            <div class="p-5">
+                <a href="#">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy
+                        technology acquisitions 2021</h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise
+                    technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                <a href="#"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    Read more
+                </a>
             </div>
-        </footer>
+        </div>
+    </div>
+    <div class="flex justify-center mt-4"> <!-- This div ensures the button is centered -->
+        <a href="#"
+            class="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            View All
+        </a>
+    </div>
+    
+    <!-- Make Sanctuary Yours Section -->
+    <div class="py-8 border-t border-gray-800">
+        <h2 class="text-3xl font-bold text-center">
+            MAKE SANCTUARY YOURS
+        </h2>
+        <div class="flex justify-center mt-4">
+            <div class="w-1/4 px-4">
+                <img alt="Character customization placeholder" class="w-full" src="https://placehold.co/300x300" />
+                <h3 class="text-xl font-bold mt-2">
+                    CHARACTER CUSTOMIZATION
+                </h3>
+            </div>
+            <div class="w-1/4 px-4">
+                <img alt="Gear placeholder" class="w-full" height="300"
+                    src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-AExz2sClQOI0WD05SQZNCWgB/user-MlmjChcinEYBA6KrHy3T1E0q/img-vCnqZmHkq7mKLSx4sn6GlIJV.png?st=2023-12-17T05%3A54%3A38Z&amp;se=2023-12-17T07%3A54%3A38Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2023-12-16T19%3A29%3A19Z&amp;ske=2023-12-17T19%3A29%3A19Z&amp;sks=b&amp;skv=2021-08-06&amp;sig=Otr4mVnviwkaK30eQ4c3odcVwQzehyeHMkTuJ4y27no%3D"
+                    width="300" />
+                <h3 class="text-xl font-bold mt-2">
+                    GEAR
+                </h3>
+            </div>
+            <div class="w-1/4 px-4">
+                <img alt="Skill trees placeholder" class="w-full" height="300"
+                    src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-AExz2sClQOI0WD05SQZNCWgB/user-MlmjChcinEYBA6KrHy3T1E0q/img-CGr5ifPOKrTKwMGSyb3RNf8R.png?st=2023-12-17T05%3A54%3A39Z&amp;se=2023-12-17T07%3A54%3A39Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2023-12-16T18%3A58%3A32Z&amp;ske=2023-12-17T18%3A58%3A32Z&amp;sks=b&amp;skv=2021-08-06&amp;sig=rqdyKqYdyaHUuwkZlPgZUOOA3dLo%2BcGcZ63kiTlCRZ8%3D"
+                    width="300" />
+                <h3 class="text-xl font-bold mt-2">
+                    SKILL TREES
+                </h3>
+            </div>
+            <div class="w-1/4 px-4">
+                <img alt="Paragon board placeholder" class="w-full" src="https://placehold.co/300x300" />
+                <h3 class="text-xl font-bold mt-2">
+                    PARAGON BOARD
+                </h3>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <!-- <footer class="py-8 border-t border-gray-800">
+        <div class="flex justify-between">
+            <div>
+                <img alt="Blizzard logo placeholder" class="h-8" src="https://placehold.co/200x100" />
+            </div>
+            <div class="flex space-x-4">
+                <a class="text-gray-400 hover:text-white" href="#">
+                    Careers
+                </a>
+                <a class="text-gray-400 hover:text-white" href="#">
+                    About
+                </a>
+                <a class="text-gray-400 hover:text-white" href="#">
+                    Support
+                </a>
+                <a class="text-gray-400 hover:text-white" href="#">
+                    Contact Us
+                </a>
+                <a class="text-gray-400 hover:text-white" href="#">
+                    API
+                </a>
+            </div>
+            <div class="flex space-x-2">
+                <a class="text-gray-400 hover:text-white" href="#">
+                    <i class="fab fa-facebook-f">
+                    </i>
+                </a>
+                <a class="text-gray-400 hover:text-white" href="#">
+                    <i class="fab fa-twitter">
+                    </i>
+                </a>
+                <a class="text-gray-400 hover:text-white" href="#">
+                    <i class="fab fa-youtube">
+                    </i>
+                </a>
+                <a class="text-gray-400 hover:text-white" href="#">
+                    <i class="fab fa-instagram">
+                    </i>
+                </a>
+            </div>
+        </div>
+        <div class="text-center text-gray-400 mt-4">
+            <p>
+                ©2023 BLIZZARD ENTERTAINMENT, INC. ALL RIGHTS RESERVED.
+            </p>
+        </div>
+    </footer> -->
+    <footer class="footer p-10 bg-base-200 text-base-content">
+        <nav>
+          <header class="footer-title">Services</header> 
+          <a class="link link-hover">Branding</a>
+          <a class="link link-hover">Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Advertisement</a>
+        </nav> 
+        <nav>
+          <header class="footer-title">Company</header> 
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Contact</a>
+          <a class="link link-hover">Jobs</a>
+          <a class="link link-hover">Press kit</a>
+        </nav> 
+        <nav>
+          <header class="footer-title">Legal</header> 
+          <a class="link link-hover">Terms of use</a>
+          <a class="link link-hover">Privacy policy</a>
+          <a class="link link-hover">Cookie policy</a>
+        </nav>
+      </footer> 
+      <footer class="footer px-10 py-4 border-t bg-base-200 text-base-content border-base-300">
+        <aside class="items-center grid-flow-col">
+            <img alt="Grinding Gear Games Logo" class="h-12" src="Assets/Grinding_Gear_Games.png" />
+        </aside> 
+        <nav class="md:place-self-center md:justify-self-end">
+                <div class="grid grid-flow-col gap-4">
+                    <a href="https://twitter.com/grindinggear?lang=en" target="_blank">
+                        <img src="Assets/logo.svg" alt="Twitter" class="fill-current" width="24" height="24">
+                    </a>
+                    <a href="https://www.youtube.com/@playpathofexile" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path></svg></a>
+                    <a href="https://www.facebook.com/profile.php?id=264716830311304&paipv=0&eav=AfZNXPxV4lKAKxjbEI3aKe9sIaBZNakZwnV4fa6s5RVvESzXc0Iw8r0Jo5gWkU1Acnw&_rdr" target=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path></svg></a>
+                </div>
+            </nav>
+        </footer>    
+        <div class="text-center py-4">
+            Made with &#10084; by Sam. Reach out at <a href="mailto:business.samlui@gmail.com" class="text-blue-500 underline hover:text-blue-800">business.samlui@gmail.com</a>
+        </div>
     </div>
     <script src="scripts.js"></script>
 </body>
